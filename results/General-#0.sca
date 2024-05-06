@@ -1,0 +1,138 @@
+version 3
+run General-0-20230119-17:41:49-14652
+attr configname General
+attr datetime 20230119-17:41:49
+attr datetimef 20230119-174149
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network LTE
+attr processid 14652
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network LTE
+
+par LTE.ue.out.channel typename "\"ned.DelayChannel\""
+par LTE.ue.out.channel disabled false
+attr mutable ""
+par LTE.ue.out.channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.enodeb.out[0].channel typename "\"ned.DelayChannel\""
+par LTE.enodeb.out[0].channel disabled false
+attr mutable ""
+par LTE.enodeb.out[0].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.enodeb.out[1].channel typename "\"ned.DelayChannel\""
+par LTE.enodeb.out[1].channel disabled false
+attr mutable ""
+par LTE.enodeb.out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.mme.out[0].channel typename "\"ned.DelayChannel\""
+par LTE.mme.out[0].channel disabled false
+attr mutable ""
+par LTE.mme.out[0].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.enodeb.out[2].channel typename "\"ned.DelayChannel\""
+par LTE.enodeb.out[2].channel disabled false
+attr mutable ""
+par LTE.enodeb.out[2].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.sgw.out[0].channel typename "\"ned.DelayChannel\""
+par LTE.sgw.out[0].channel disabled false
+attr mutable ""
+par LTE.sgw.out[0].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.mme.out[1].channel typename "\"ned.DelayChannel\""
+par LTE.mme.out[1].channel disabled false
+attr mutable ""
+par LTE.mme.out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.sgw.out[1].channel typename "\"ned.DelayChannel\""
+par LTE.sgw.out[1].channel disabled false
+attr mutable ""
+par LTE.sgw.out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.mme.out[2].channel typename "\"ned.DelayChannel\""
+par LTE.mme.out[2].channel disabled false
+attr mutable ""
+par LTE.mme.out[2].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.hss.out.channel typename "\"ned.DelayChannel\""
+par LTE.hss.out.channel disabled false
+attr mutable ""
+par LTE.hss.out.channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.sgw.out[2].channel typename "\"ned.DelayChannel\""
+par LTE.sgw.out[2].channel disabled false
+attr mutable ""
+par LTE.sgw.out[2].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.pcrf.out[0].channel typename "\"ned.DelayChannel\""
+par LTE.pcrf.out[0].channel disabled false
+attr mutable ""
+par LTE.pcrf.out[0].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.sgw.out[3].channel typename "\"ned.DelayChannel\""
+par LTE.sgw.out[3].channel disabled false
+attr mutable ""
+par LTE.sgw.out[3].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.pgw.out[0].channel typename "\"ned.DelayChannel\""
+par LTE.pgw.out[0].channel disabled false
+attr mutable ""
+par LTE.pgw.out[0].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.pcrf.out[1].channel typename "\"ned.DelayChannel\""
+par LTE.pcrf.out[1].channel disabled false
+attr mutable ""
+par LTE.pcrf.out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.pgw.out[1].channel typename "\"ned.DelayChannel\""
+par LTE.pgw.out[1].channel disabled false
+attr mutable ""
+par LTE.pgw.out[1].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.pgw.out[2].channel typename "\"ned.DelayChannel\""
+par LTE.pgw.out[2].channel disabled false
+attr mutable ""
+par LTE.pgw.out[2].channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.internet.out.channel typename "\"ned.DelayChannel\""
+par LTE.internet.out.channel disabled false
+attr mutable ""
+par LTE.internet.out.channel delay 1s
+attr mutable ""
+attr unit s
+par LTE.ue typename "\"UE\""
+par LTE.enodeb typename "\"ENodeB\""
+par LTE.mme typename "\"MME\""
+par LTE.hss typename "\"HSS\""
+par LTE.sgw typename "\"SGW\""
+par LTE.pgw typename "\"PGW\""
+par LTE.pcrf typename "\"PCRF\""
+par LTE.internet typename "\"INTERNET\""
+par LTE typename "\"LTE\""
+
